@@ -1,0 +1,13 @@
+name = Block Translation CKeditor
+description = "Add CKeditor to text field on block"
+
+package     = User interface
+
+core = 7.x
+
+dependencies[] = ckeditor
+
+version = "7.x-1.x-dev"
+
+project = "bt-ckeditor"
+datestamp = "123549978"
