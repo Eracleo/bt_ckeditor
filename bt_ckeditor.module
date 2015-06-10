@@ -19,7 +19,7 @@ function bt_ckeditor_form_alter(&$form, &$form_state, $form_id) {
       }
     }
 
-   $form['#submit'] = array_merge(array('_mymodule_form_submit') , $form['#submit']);
+   $form['#submit'] = array_merge(array('_bt_ckeditor_form_submit') , $form['#submit']);
   }
 }
 
