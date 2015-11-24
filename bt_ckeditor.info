@@ -5,6 +5,7 @@ package     = User interface
 
 core = 7.x
 
+dependencies[] = i18n_block
 dependencies[] = ckeditor
 
 version = "7.x-1.x-dev"
